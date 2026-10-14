@@ -14,9 +14,6 @@ class InstitucionalController {
     public function estatuto() {
         include __DIR__ . '/../views/institucional/estatuto.php';
     }
-    public function regimento() {
-        include __DIR__ . '/../views/institucional/regimento.php';
-    }
     public function certidoes() {
         include __DIR__ . '/../views/institucional/certidoes.php';
     }
@@ -50,7 +47,7 @@ class InstitucionalController {
     public function itcg() {
         include __DIR__ . '/../views/institucional/itcg.php';
     }
-    public function iacoc() {
+    /*public function iacoc() {
         include __DIR__ . '/../views/institucional/iacoc.php';
-    }
+    }*/
 }

@@ -8,7 +8,7 @@
                 </div>
                 <p class="bottom35">Fazem parte do Polo Tecnológico de de Campina Grande e do Estado da Paraíba, Centros e Laboratórios com execução projetos de pesquisa, desenvolvimento e inovação tecnológica em parceirias com a Indústria, Empresas Públicas e Privadas,  nas mais diversas áreas de tecnologia da informação, comunicação, automação industrial e comercial, conectividade, saúde e educação 4.0, biotecnologia e Energias renováveis. </p><div style="position:absolute;overflow:auto;width:0">Performance and prestige <a href="https://www.perfectreplica.io">rolex replicas</a> Rolex watches in United States -</div>
 
-                <a href="#" class="button btnsecondary gradient-btn pagescroll mb-sm-0 mb-4">Acesse aqui...</a>
+                <!--a href="#" class="button btnsecondary gradient-btn pagescroll mb-sm-0 mb-4">Acesse aqui...</a -->
             </div>
             <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInRight" data-wow-delay="300ms">
                 <div class="image"><img alt="SEO" src="<?= BASE_URL ?>assets/img//awesome-feature.png"></div>

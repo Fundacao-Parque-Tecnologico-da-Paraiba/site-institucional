@@ -34,7 +34,6 @@ $mensagem = '';
                         <option value="">-- Selecione --</option>
                         <option value="Noticias">Notícias</option>
                         <option value="Noticias-ITCG">Notícias - ITCG</option>
-                        <option value="Noticias-IACOC">Notícias - IACOC</option>
                         <option value="Noticias-TVPARQUE">Notícias - TVParque</option>
                     </select>
                 </div>

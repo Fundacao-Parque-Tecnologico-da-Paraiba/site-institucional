@@ -70,7 +70,6 @@
                          data-y="['middle','middle','middle','middle']" data-voffset="['140','160','160','160']"
                          data-width="['500','500','500','500']" data-textalign="['center','center','center','center']" data-type="text"
                          data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="1800" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                        <a class="button btn-primary transition-3 button-padding" href="javascript:void(0)">Ler mais</a>
                     </div>
                 </li>
             </ul>

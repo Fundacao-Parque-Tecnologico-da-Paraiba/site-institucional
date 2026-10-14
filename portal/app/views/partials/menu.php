@@ -43,14 +43,11 @@
                             <a class="dropdown-item" href="<?= BASE_URL ?>nossotime">Quem Somos</a>
                             <a class="dropdown-item" href="<?= BASE_URL ?>historico">Histórico</a>
                             <a class="dropdown-item" href="<?= BASE_URL ?>estatuto"  target="_blank">Estatuto</a>
-                            <a class="dropdown-item" href="<?= BASE_URL ?>regimento" target="_blank">Regimento</a>
                             <a class="dropdown-item" href="<?= BASE_URL ?>certidoes">Certidões</a>
                             <a class="dropdown-item" href="<?= BASE_URL ?>atosnormativos">Atos Normativos</a>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <h5 class="dropdown-title opacity-10">INFORMAÇÕES</h5>
-                            <a class="dropdown-item" href="<?= BASE_URL ?>assets/pages/download/FUNDACAO_PATCPB_2023.pdf" target="_blank">Apresentação Institucional</a>
-                            <a class="dropdown-item" href="<?= BASE_URL ?>assets/pages/download/GESTAO_AREA_TEC_2023_EMPRESAS_STARTUPS_01.pdf" target="_blank">Área Técnica</a>
                             <a class="dropdown-item" href="<?= BASE_URL ?>organograma">Estrutura Administrativa</a>
                             <a class="dropdown-item" href="<?= BASE_URL ?>credenciadas">Instituições Credenciadas</a>
                             <a class="dropdown-item" href="<?= BASE_URL ?>legislacao">Legislação</a>
@@ -80,7 +77,6 @@
         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">INCUBADORAS</a>
         <div class="dropdown-menu">
             <a class="dropdown-item" href="<?= BASE_URL ?>itcg">ITCG</a>
-            <a class="dropdown-item" href="<?= BASE_URL ?>iacoc">IACOC</a>
         </div>
     </li>
 
@@ -94,7 +90,7 @@
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">SISTEMAS</a>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="https://sgi.paqtc.org.br" target="_blank">SGI - Coordenador</a>
+            <a class="dropdown-item" href="https://paqtcpb.conveniar.com.br/coordenador/Login.aspx" target="_blank">Conveniar - Coordenador</a>
             <a class="dropdown-item" href="https://sgi.paqtc.org.br/Portal_Transparencia/" target="_blank">Portal da Transparência - SGI</a>
             <a class="dropdown-item" href="https://paqtcpb.conveniar.com.br/portaltransparencia/" target="_blank">Portal da Transparência - Conveniar</a>
         </div>
@@ -127,7 +123,6 @@
                             <li><a class="nav-link" href="<?= BASE_URL ?>nossotime">Quem Somos</a></li>
                             <li><a class="nav-link" href="<?= BASE_URL ?>historico">Histórico</a></li>
                             <li><a class="nav-link" href="<?= BASE_URL ?>estatuto"  target="_blank">Estatuto</a></li>
-                            <li><a class="nav-link" href="<?= BASE_URL ?>regimento"  target="_blank">Regimento</a></li>
                             <li><a class="nav-link" href="<?= BASE_URL ?>certidoes">Certidões</a></li>
                             <a class="nav-link" href="<?= BASE_URL ?>atosnormativos">Atos Normativos</a>
                             <li><a class="nav-link" href="<?= BASE_URL ?>organograma">Estrutura Administrativa</a></li>
@@ -147,7 +142,6 @@
                     <div id="sideNavIncubadoras" class="collapse">
                         <ul class="navbar-nav mt-2">
                             <li><a class="nav-link" href="<?= BASE_URL ?>itcg">ITCG</a></li>
-                            <li><a class="nav-link" href="<?= BASE_URL ?>iacoc">IACOC</a></li>
                         </ul>
                     </div>
                 </li>
@@ -167,7 +161,7 @@
                     </a>
                     <div id="sideNavSistemas" class="collapse">
                         <ul class="navbar-nav mt-2">
-                            <li><a class="nav-link" href="https://sgi.paqtc.org.br" target="_blank">SGI-Coordenador</a></li>
+                            <li><a class="nav-link" href="https://paqtcpb.conveniar.com.br/coordenador/Login.aspx" target="_blank">Conveniar - Coordenador</a></li>
                             <li><a class="nav-link" href="https://sgi.paqtc.org.br/Portal_Transparencia/" target="_blank">Portal da Transparência - SGI</a></li>
                             <li><a class="nav-link" href="https://paqtcpb.conveniar.com.br/portaltransparencia/" target="_blank">Portal da Transparência - Conveniar</a></li>
                         </ul>
