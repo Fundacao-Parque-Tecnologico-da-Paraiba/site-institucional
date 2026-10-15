@@ -31,7 +31,7 @@
 <section class="padding">
     <div class="container text-center">
         <h4 class="mb-4">Clique abaixo para visualizar o Estatuto da Fundação PaqTcPB:</h4>
-        <a class="btn btn-outline-primary" href="<?= BASE_URL ?>assets/pages/download/EstatutoPaqTc.pdf" target="_blank">
+        <a class="btn btn-outline-primary" href="<?= BASE_URL ?>assets/pages/download/EstatutoPaqTcPB2024.pdf" target="_blank">
             Abrir Estatuto em PDF
         </a>
     </div>

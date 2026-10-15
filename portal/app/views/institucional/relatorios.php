@@ -11,7 +11,7 @@
             <div class="col-lg-6 offset-lg-3">
                 <div class="page-titles whitecolor text-center padding_top padding_bottom">
                     <h2 class="font-bold">Relatórios</h2>
-                    <h3 class="font-light pt-2">Transparência das atividades da Fundação PaqTcPB</h3>
+                    <h3 class="font-light pt-2">Relatórios Anuais de Gestão e Relatórios de Atividades</h3>
                 </div>
             </div>
         </div>
@@ -33,14 +33,21 @@
 <section class="padding">
     <div class="container">
         <div class="row">
+            <div class="col-12 mb-4">
+                <p>Os documentos publicados nesta página correspondem aos relatórios anuais de gestão da Fundação PaqTcPB. Relatório Anual e Relatório de Gestão referem-se ao mesmo documento; o Estatuto da Fundação utiliza a denominação “Relatório de Atividades”.</p>
+            </div>
             <?php
               $relatorios = [
-                ["nome" => "Relatório Anual 2023", "arquivo" => "Relatorio_anual_2023_PaqTcPB.pdf"],
+                ["nome" => "Relatório Anual de Gestão 2025", "arquivo" => "Relatorio_anual_2025_PaqTcPB.pdf"],
+                ["nome" => "Relatório Anual de Gestão 2024", "arquivo" => "Relatorio_anual_2024_PaqTcPB.pdf"],
+                ["nome" => "Relatório Anual de Gestão 2023", "arquivo" => "Relatorio_anual_2023_PaqTcPB.pdf"],
+                ["nome" => "Relatório Anual de Gestão 2022", "arquivo" => "Relatorio_anual_2022_PaqTcPB.pdf"],
+                ["nome" => "Relatório Anual de Gestão 2021", "arquivo" => "Relatorio_anual_2021_PaqTcPB.pdf"],
+                ["nome" => "Relatório Anual de Gestão 2020", "arquivo" => "Relatorio_anual_2020_PaqTcPB.pdf"],
+                ["nome" => "Relatório Anual de Gestão 2019", "arquivo" => "Relatorio_anual_2019_PaqTcPB.pdf"],
+                ["nome" => "Relatório Anual de Gestão 2018", "arquivo" => "Relatorio_anual_2018_PaqTcPB.pdf"],
+                ["nome" => "Relatório Anual de Gestão 2017", "arquivo" => "Relatorio_anual_2017_PaqTcPB.pdf"],
                 ["nome" => "Relatório de Gestão 2018-2022", "arquivo" => "Relatorio_de_Gestao_2018_2022_V5_Final.pdf"],
-                ["nome" => "Relatório Anual 2020", "arquivo" => "Relatorio_anual_2020_PaqTcPB.pdf"],
-                ["nome" => "Relatório Anual 2019", "arquivo" => "Relatorio_anual_2019_PaqTcPB.pdf"],
-                ["nome" => "Relatório Anual 2018", "arquivo" => "Relatorio_anual_2018_PaqTcPB.pdf"],
-                ["nome" => "Relatório Anual 2017", "arquivo" => "Relatorio_anual_2017_PaqTcPB.pdf"],
               ];
             ?>
 

@@ -183,6 +183,22 @@
                </div>
             </div>
          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
+            <div class="team-box wow fadeIn" data-wow-delay="650ms">
+               <div class="image">
+                  <img src="<?= BASE_URL ?>assets/img/bnb.png" alt="">
+               </div>
+               <div class="team-content">
+                  <h4 class="darkcolor">BnB</h4>
+                  <p>Banco do Nordeste do Brasil</p>
+                  <ul class="social-icons-simple">
+                     <li><a class="facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                     <li><a class="twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                     <li><a class="insta" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
       </div>
    </div>
 </section>
