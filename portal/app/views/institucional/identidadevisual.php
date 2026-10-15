@@ -34,25 +34,22 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">
-                <h4 class="mb-4">Material oficial da identidade visual da Fundação PaqTcPB:</h4>
-
-                <div class="mb-4">
-                    <p>Baixe o manual da marca com orientações sobre uso correto da logomarca:</p>
-                    <a class="btn btn-outline-primary mb-2" href="#" target="_blank">
-                        Baixar Manual da Identidade Visual
-                    </a>
+                <div class="row g-4 justify-content-center my-4">
+                    <div class="col-md-6">
+                        <div class="h-100 p-4">
+                            <img src="<?= BASE_URL ?>assets/pages/download/Logo_horizontal_PaqTcPB.png" alt="Logomarca horizontal da Fundação PaqTcPB" class="img-fluid mb-3" style="max-width: 400px;">
+                            <h5>Identidade visual da Fundação PaqTcPB</h5>
+                            <p>Consulte o manual e baixe a logomarca nos formatos disponíveis.</p>
+                            <a class="btn btn-outline-primary me-2 mb-2" href="<?= BASE_URL ?>assets/pages/download/Manual_Identidade_Visual_PaqTcPB.pdf" target="_blank" rel="noopener noreferrer">Manual de identidade visual (PDF)</a>
+                            <a class="btn btn-outline-secondary me-2 mb-2" href="<?= BASE_URL ?>assets/pages/download/Logo_horizontal_PaqTcPB.png" download>Logo horizontal (PNG)</a>
+                            <a class="btn btn-outline-secondary me-2 mb-2" href="<?= BASE_URL ?>assets/pages/download/Logo_horizontal_PaqTcPB.pdf" target="_blank" rel="noopener noreferrer">Logo horizontal (PDF)</a>
+                            <a class="btn btn-outline-secondary mb-2" href="<?= BASE_URL ?>assets/pages/download/Logo_PaqTcPB_CorelDRAW.cdr" download>Logo (CDR)</a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="mb-4">
-                    <p>Logomarcas para uso em materiais:</p>
-                    <a class="btn btn-outline-secondary me-2 mb-2" href="#" target="_blank">Logo PNG</a>
-                    <a class="btn btn-outline-secondary me-2 mb-2" href="#" target="_blank">Logo SVG</a>
-                    <a class="btn btn-outline-secondary me-2 mb-2" href="#" target="_blank">Logo PDF</a>
-                </div>
-
-                <div class="mb-3">
-                    <img src="<?= BASE_URL ?>assets/img/logo/logo-horizontal.png" alt="Logomarca PaqTcPB" class="img-fluid" style="max-width: 300px;">
-                </div>
+                <p class="mt-4">Os arquivos também estão disponíveis na pasta compartilhada:</p>
+                <a class="btn btn-primary" href="https://drive.google.com/drive/folders/17ngE4mzJ9UbgaTxI4WY_4i_HZ0so6sOg?usp=sharing" target="_blank" rel="noopener noreferrer">Acessar manual e logomarcas no Google Drive</a>
             </div>
         </div>
     </div>

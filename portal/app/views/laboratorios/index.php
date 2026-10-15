@@ -1,40 +1,31 @@
-<!--Some Feature -->
-<section id="our-feature" class="single-feature padding">
-    <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-lg-6 col-md-7 col-sm-7 text-sm-start text-center wow fadeInLeft" data-wow-delay="300ms">
-                <div class="heading-title mb-4">
-                    <h2 class="darkcolor font-normal bottom30">Conheça os Centros de <span class="defaultcolor">Desenvolvimento Tecnológico</span>  e Inovação</h2>
-                </div>
-                <p class="bottom35">Fazem parte do Polo Tecnológico de de Campina Grande e do Estado da Paraíba, Centros e Laboratórios com execução projetos de pesquisa, desenvolvimento e inovação tecnológica em parceirias com a Indústria, Empresas Públicas e Privadas,  nas mais diversas áreas de tecnologia da informação, comunicação, automação industrial e comercial, conectividade, saúde e educação 4.0, biotecnologia e Energias renováveis. </p><div style="position:absolute;overflow:auto;width:0">Performance and prestige <a href="https://www.perfectreplica.io">rolex replicas</a> Rolex watches in United States -</div>
-
-                <!--a href="#" class="button btnsecondary gradient-btn pagescroll mb-sm-0 mb-4">Acesse aqui...</a -->
-            </div>
-            <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInRight" data-wow-delay="300ms">
-                <div class="image"><img alt="SEO" src="<?= BASE_URL ?>assets/img//awesome-feature.png"></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Some Feature ends-->
 <!-- Counters -->
 <section id="bg-counters" class="padding bg-counters parallax">
     <div class="container">
         <div class="row align-items-center text-center">
-            <div class="col-lg-3 col-md-3 col-sm-3 bottom10">
-                <div class="counters whitecolor  top10 bottom10">
+            <!-- Contador Esquerdo -->
+            <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                <div class="counters whitecolor">
                     <span class="count_nums font-light" data-to="1984" data-speed="2500"> </span>
                 </div>
-                <h3 class="font-light whitecolor top20">Desde que começamos</h3>
+                <h4 class="font-light whitecolor top10" style="font-size: 1.05rem;">Desde que começamos</h4>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
-                <h3 class="font-light whitecolor top10">Criada em 1984, o Parque Tecnológico da Paraíba - PaqTcPB faz parte dos três primeiros Parques Tecnológicos do país, de direito privado, personalidade jurídica Fundacional e ICT, é Vinculada as principais Universidades do Estado: UFCG, UFPB, UEPB, IFPB e Instituições como SEBRAE, EMBRAPA, INSA,ACCG, PMCG e GOV-PB. Somos credenciados ao MTCI e MEC, e fiscalizados pelo MPF e CGU.</h3>
+
+            <!-- Texto Central (2 Parágrafos sem sobreposição) -->
+            <div class="col-lg-6 col-md-12 px-lg-3 mb-4 mb-lg-0">
+                <p class="font-light whitecolor mb-3" style="font-size: 0.88rem; line-height: 1.5;">
+                    Criada em 1984, a Fundação Parque Tecnológico da Paraíba (PaqTcPB) está entre os três primeiros parques tecnológicos do Brasil. É uma instituição de direito privado, sem fins lucrativos, com personalidade jurídica de fundação, que também atua como Instituição Científica, Tecnológica e de Inovação (ICT).
+                </p>
+                <p class="font-light whitecolor mb-0" style="font-size: 0.88rem; line-height: 1.5;">
+                    A Fundação mantém vínculos e parcerias com as principais instituições de ensino e pesquisa do estado, como UFCG, UFPB, UEPB e IFPB, além de instituições como SEBRAE, EMBRAPA, INSA, ACCG, Prefeitura Municipal de Campina Grande (PMCG) e Governo do Estado da Paraíba. É credenciada junto ao Ministério da Ciência, Tecnologia e Inovação (MCTI) e ao Ministério da Educação (MEC), estando sujeita à fiscalização dos órgãos competentes, conforme a legislação aplicável.
+                </p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 bottom10">
-                <div class="counters whitecolor top10 bottom10">
+
+            <!-- Contador Direito -->
+            <div class="col-lg-3 col-md-12">
+                <div class="counters whitecolor">
                     <span class="count_nums font-light" data-to="493" data-speed="2500"> </span>
                 </div>
-                <h3 class="font-light whitecolor top20">Projetos nos últimos 3 anos</h3>
+                <h4 class="font-light whitecolor top10" style="font-size: 1.05rem;">Projetos nos últimos 3 anos</h4>
             </div>
         </div>
     </div>

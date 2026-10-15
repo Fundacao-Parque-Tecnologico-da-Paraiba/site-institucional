@@ -16,7 +16,7 @@
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="300ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/UFCG.png" alt="">
+                  <img src="<?= BASE_URL ?>assets/img/UFCG.png" alt="UFCG">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">UFCG</h4>
@@ -33,7 +33,7 @@
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="350ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/UEPB.png" alt="">
+                  <img src="<?= BASE_URL ?>assets/img/UEPB.png" alt="UEPB">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">UEPB</h4>
@@ -50,11 +50,11 @@
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="400ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/ufpb.png" alt="">
+                  <img src="<?= BASE_URL ?>assets/img/ufpb.png" alt="UFPB">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">UFPB</h4>
-                  <p>Universidade Federal da Praíba</p>
+                  <p>Universidade Federal da Paraíba</p>
                   <ul class="social-icons-simple">
                      <li><a class="facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
                      <li><a class="twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
@@ -63,11 +63,11 @@
                </div>
             </div>
          </div>
-         <!--item 5-->
+         <!--item 4-->
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="500ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/ifpb.png" alt="">
+                  <img src="<?= BASE_URL ?>assets/img/ifpb.png" alt="IFPB">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">IFPB</h4>
@@ -80,11 +80,11 @@
                </div>
             </div>
          </div>
-         <!--item 4-->
+         <!--item 5-->
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="450ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/INSA.png" alt="">
+                  <img src="<?= BASE_URL ?>assets/img/INSA.png" alt="INSA">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">INSA/MCTI</h4>
@@ -97,12 +97,11 @@
                </div>
             </div>
          </div>
-         <!--item 5-->       
          <!--item 6-->
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="550ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/sebrae.png" alt="">
+                  <img src="<?= BASE_URL ?>assets/img/sebrae.png" alt="SEBRAE">
                </div>
                <div class="team-content">
                   <h5 class="darkcolor">SEBRAE-PB</h5>
@@ -119,7 +118,7 @@
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="600ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/pmcg.png" alt="">
+                  <img src="<?= BASE_URL ?>assets/img/pmcg.png" alt="PMCG">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">PMCG</h4>
@@ -136,7 +135,7 @@
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="650ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/governopb.png" alt="">
+                  <img src="<?= BASE_URL ?>assets/img/governopb.png" alt="Governo da Paraíba">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">Paraíba</h4>
@@ -149,11 +148,11 @@
                </div>
             </div>
          </div>
-         <!--item 8-->
+         <!--item 9-->
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="650ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/fiep.png" alt="">
+                  <img src="<?= BASE_URL ?>assets/img/fiep.png" alt="FIEP-PB">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">FIEP-PB</h4>
@@ -166,11 +165,11 @@
                </div>
             </div>
          </div>
-         <!--item 8-->
+         <!--item 10-->
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="650ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/accg.png" alt="">
+                  <img src="<?= BASE_URL ?>assets/img/accg.png" alt="ACCG">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">ACCG</h4>
@@ -183,13 +182,13 @@
                </div>
             </div>
          </div>
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
+         <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="650ms">
-               <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/bnb.png" alt="">
+               <div class="image d-flex align-items-center justify-content-center" style="height: 160px;">
+                  <img src="<?= BASE_URL ?>assets/img/Logo_BNB.svg" alt="Logomarca do Banco do Nordeste" style="max-height: 60px; width: auto; object-fit: contain;">
                </div>
                <div class="team-content">
-                  <h4 class="darkcolor">BnB</h4>
+                  <h4 class="darkcolor">BNB</h4>
                   <p>Banco do Nordeste do Brasil</p>
                   <ul class="social-icons-simple">
                      <li><a class="facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
