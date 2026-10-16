@@ -13,22 +13,21 @@
                         </p>
                     </div>
                     <ul class="social-icons white wow fadeInUp" data-wow-delay="300ms">
-                        <li><a href="javascript:void(0)" class="facebook"><i class="fab fa-facebook-f"></i> </a> </li>
-                        <li><a href="javascript:void(0)" class="twitter"><i class="fab fa-twitter"></i> </a> </li>
-                        <li><a href="javascript:void(0)" class="linkedin"><i class="fab fa-linkedin-in"></i> </a> </li>
-                        <li><a href="javascript:void(0)" class="insta"><i class="fab fa-instagram"></i> </a> </li>
+                        <li><a href="https://www.facebook.com/fundacaopaqtcpb" class="facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook da Fundação PaqTcPB"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/fundacao.paqtcpb/" class="insta" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Fundação PaqTcPB"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/fundacaoparquetecnologicodaparaiba/home/" class="linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn da Fundação PaqTcPB"><i class="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="footer_panel padding_bottom_half bottom20">
                     <h3 class="whitecolor bottom25">Últimas Notícias</h3>
-                    <ul class="latest_news whitecolor">
+                   <ul class="latest_news whitecolor">
                         <?php
                         global $conn;
                         $sqlFooter = "SELECT idNoticia, titulo, datacadastro FROM tbnoticias ORDER BY idNoticia DESC LIMIT 3";
                         $resultFooter = mysqli_query($conn, $sqlFooter);
-
+                        
                         while ($noticiaFooter = mysqli_fetch_assoc($resultFooter)) {
                             $ano = date('Y', strtotime($noticiaFooter['datacadastro']));
                             $tituloLimpo = strip_tags(html_entity_decode($noticiaFooter['titulo']));

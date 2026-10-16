@@ -1,35 +1,27 @@
-<!--Some Feature -->
+<!-- Apresentação da ITCG -->
 <section id="our-feature" class="single-feature padding">
     <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-lg-6 col-md-7 col-sm-7 text-sm-start text-center wow fadeInLeft" data-wow-delay="300ms">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-sm-start text-center">
                 <div class="heading-title mb-4">
-                    <h2 class="darkcolor font-normal bottom30">Sobrea a  <span class="defaultcolor">Incubadora</span>  ITCG</h2>
+                    <h2 class="darkcolor font-normal bottom30">ITCG – Incubadora Tecnológica de Empreendimentos Criativos e Inovadores de Campina Grande</h2>
                 </div>
-                <p class="bottom35">A Fundação Parque Tecnológico da Paraíba, através da Incubadora Tecnológica de Empreendimentos Criativos e Inovadores de Campina Grande – ITCG, apoia o empreendedorismo facilitando a transformação de ideias inovadoras em empresas viáveis e voltadas para o futuro. A cada ano, novos projetos empresariais são acompanhados, aumentando suas chances de crescimento via os apoios técnicos e gerenciais acessíveis a cada empresa. </p>
-                <!-- a href="#" class="button btnsecondary gradient-btn pagescroll mb-sm-0 mb-4">Acesse aqui...</a -->
-            </div>
-            <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInRight" data-wow-delay="300ms">
-                <div class="image"><img alt="SEO" src="<?= BASE_URL ?>assets/img/awesome-featureitcg.png"></div>
-            </div>
-        </div>
-        <div class="row d-flex align-items-center">
-            <div class="col-lg-6 col-md-7 col-sm-7 text-sm-start text-center wow fadeInLeft" data-wow-delay="300ms">
-                <div class="heading-title mb-4">
-                    <h2 class="darkcolor font-normal bottom30">Serviços aos<span class="defaultcolor"> Empreendedores</span>  </h2>
+
+                <p class="bottom35">A Incubadora Tecnológica de Empreendimentos Criativos e Inovadores de Campina Grande (ITCG) tem como missão fomentar o empreendedorismo inovador por meio do apoio à criação, ao desenvolvimento e à consolidação de empreendimentos inovadores de base tecnológica. Sua atuação busca transformar ideias em negócios sustentáveis, fortalecendo a capacidade de inovação e a competitividade empresarial, bem como a geração de valor econômico, social e ambiental, contribuindo para o desenvolvimento sustentável da Paraíba e da região. Como parte de sua atuação no campo da inovação tecnológica, a ITCG é credenciada pelo Comitê da Área de Tecnologia da Informação (CATI), vinculado ao Ministério da Ciência, Tecnologia e Inovação (MCTI), como instituição habilitada à execução de atividades de pesquisa e desenvolvimento, nos termos da legislação aplicável.</p>
+
+                <p class="bottom35">A ITCG organiza sua atuação em três etapas complementares de desenvolvimento empreendedor: pré-incubação, incubação e pós-incubação, abrangendo diferentes níveis de maturidade dos negócios, desde a concepção e validação de ideias até a consolidação e a expansão das empresas no mercado.</p>
+
+                <p class="bottom35">O Programa de Incubação da ITCG é um mecanismo de apoio à estruturação e ao crescimento de negócios inovadores, voltado ao fortalecimento da viabilidade técnica, mercadológica, econômica e gerencial das startups. O programa atua em cinco dimensões fundamentais: tecnologia, mercado, capital, gestão e perfil empreendedor, promovendo o desenvolvimento integrado dos negócios e o aprimoramento das competências necessárias à sua consolidação.</p>
+
+                <p class="bottom35">Por meio de mentorias, capacitações e articulação de parcerias estratégicas, o programa busca conectar os empreendimentos a universidades, centros de pesquisa, startups, instituições de apoio ao empreendedorismo e à inovação, empresas e potenciais investidores. Essas conexões favorecem o intercâmbio de conhecimentos, o desenvolvimento de soluções, o acesso a recursos e oportunidades de mercado e o fortalecimento da capacidade de inovação e crescimento dos negócios. A incubação poderá ocorrer nas modalidades presencial ou virtual, ampliando as possibilidades de participação de startups de diferentes localidades.</p>
+
+                <p class="bottom35">Dessa forma, a ITCG busca apoiar o desenvolvimento de empreendimentos inovadores, contribuindo para a consolidação de negócios competitivos e sustentáveis e para o fortalecimento do ecossistema de inovação da Paraíba e da região.</p>
+
+                <div class="text-center mt-4">
+                    <a href="mailto:paqtc@paqtc.org.br?subject=Interesse%20no%20Programa%20de%20Incuba%C3%A7%C3%A3o%20da%20ITCG" class="button btnsecondary gradient-btn">Quero ser uma incubadora</a>
                 </div>
-                <p class="bottom35">1) Orientação empresarial;<br/>
-                    2) Elaboração de Plano de Negócios;<br/>
-                    3) Informações tecnológicas e mercadológicas;<br/>
-                    4) Registro e legalização de empresas e produtos;<br/>
-                    5) Participação em eventos, treinamentos;<br/>
-                    6) Cooperação com universidades e centros de pesquisa. </p>
-                <!-- a href="#" class="button btnsecondary gradient-btn pagescroll mb-sm-0 mb-4">Acesse aqui...</a -->
-            </div>
-            <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInRight" data-wow-delay="300ms">
-                <div class="image"><img alt="SEO" src="<?= BASE_URL ?>assets/img/awesome-featureitcg1.png"></div>
             </div>
         </div>
     </div>
 </section>
-<!--Some Feature ends-->
+<!-- Apresentação da ITCG termina -->

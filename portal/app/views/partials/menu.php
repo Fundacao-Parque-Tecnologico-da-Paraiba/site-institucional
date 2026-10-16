@@ -171,9 +171,9 @@
         </nav>
         <div class="side-footer w-100">
             <ul class="social-icons-simple white top40">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/fundacaopaqtcpb" target="_blank" rel="noopener noreferrer" aria-label="Facebook da Fundação PaqTcPB"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/fundacao.paqtcpb/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Fundação PaqTcPB"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/fundacaoparquetecnologicodaparaiba/home/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn da Fundação PaqTcPB"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
             <p class="whitecolor">&copy; <span id="year"></span> PaqTcPB</p>
         </div>
