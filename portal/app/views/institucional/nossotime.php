@@ -43,16 +43,17 @@
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <p class="heading_space mt-n3 mt-sm-0 text-center text-md-start">
                     Ao longo dos anos, a instituição tem sido uma espécie de pilar, para dar suporte a projetos e programas do setor de Ciência, Tecnologia e Inovação. Grande parte da sua história de prestígio é fruto dos resultados alcançados na sua atuação e das parcerias firmadas com várias instituições. Suas ações têm se pautado no desenvolvimento de atividades dentro das normas e objetivos propostos, sendo inquestionável sua reputação política e profissional.
+                </p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-12">
                 <div id="ourteam-slider" class="owl-carousel">
-                    <div class="item">
+                    <div class="item px-3">
                         <div class="team-box">
                             <div class="image">
-                                <img src="<?= BASE_URL ?>assets/img/diretoria/DiretorGeral.jpg" alt="Diretor Geral">
+                                <img src="<?= BASE_URL ?>assets/img/diretoria/DiretorGeral.png" alt="Diretor Geral">
                             </div>
                             <div class="team-content">
                                 <h4 class="darkcolor">Diretor Geral</h4>
@@ -60,10 +61,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item px-3">
                         <div class="team-box">
                             <div class="image">
-                                <img src="<?= BASE_URL ?>assets/img/diretoria/DiretoraTecnica_01.jpg" alt="">
+                                <img src="<?= BASE_URL ?>assets/img/diretoria/DiretoraAdjunta.png" alt="Diretora Adjunta">
                             </div>
                             <div class="team-content">
                                 <h4 class="darkcolor">Diretora Adjunta</h4>
@@ -71,10 +72,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item px-3">
                         <div class="team-box single">
                             <div class="image">
-                                 <img src="<?= BASE_URL ?>assets/img/diretoria/DiretorAdjunto.jpg" alt="Diretora Adjunta">
+                                <img src="<?= BASE_URL ?>assets/img/diretoria/DiretorTecnico.png" alt="Diretor Técnico">
                             </div>
                             <div class="team-content">
                                 <h4 class="darkcolor">Diretor Técnico</h4>
@@ -92,9 +93,10 @@
                 <div class="news_desc text-center text-md-start">
                     <h3 class="text-center font-normal darkcolor"><a href="#"><strong>Conselho Diretor</strong></a></h3><br/>
                     
-                    <h4 class="darkcolor font-normal bottom30 text-center text-md-start">
+                    <!-- Texto 1: Com espaço duplo de parágrafo depois (3.5rem) -->
+                    <p class="darkcolor font-normal text-center text-md-start" style="font-size: 1.2rem; line-height: 1.6; margin-bottom: 3.5rem;">
                         O Conselho Diretor constitui o órgão máximo da Fundação PaqTcPB constituído dos membros instituidores, pelos seguintes órgãos participantes:
-                    </h4>
+                    </p>
 
                     <ul class="rounded heading_space text-start">
                         <li>Camilo Allyson Simões de Farias - UFCG (Presidente)</li>
@@ -146,9 +148,10 @@
                 <div class="news_desc text-center text-md-start">
                     <h3 class="text-center font-normal darkcolor"><a href="#"><strong>Diretoria Executiva (1984-2025)</strong></a></h3><br/>
                     
-                    <p class="bottom35">
+                    <!-- Texto 2: Com espaço duplo de parágrafo depois (3.5rem) -->
+                    <p class="darkcolor font-normal text-center text-md-start" style="font-size: 1.2rem; line-height: 1.6; margin-bottom: 3.5rem;">
                         Criada em 1984, entre os quatro primeiros parques tecnológicos do país, a Fundação Parque Tecnológico da Paraíba – Fundação PaqTcPB é uma instituição sem fins lucrativos voltada para o avanço científico e tecnológico do Estado.
-                    </p><br/>
+                    </p>
 
                     <h4 class="darkcolor font-normal bottom30 text-center text-md-start">Diretoria Executiva (2018 a 2025)</h4>
                     <ul class="rounded heading_space text-start">
