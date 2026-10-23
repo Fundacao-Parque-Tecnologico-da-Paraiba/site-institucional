@@ -79,7 +79,7 @@ if ($_SESSION['usuario_categoria'] !== 'Administrador' && $noticia['autor'] !== 
         <div class="col-md-4">
           <label class="form-label">Status</label>
           <select name="status" class="form-select">
-            <option value="publica" <?= $noticia['status'] === 'publica' ? 'selected' : '' ?>>Publicada</option>
+            <option value="publica" <?= in_array($noticia['status'], ['publica', 'publicar'], true) ? 'selected' : '' ?>>Publicada</option>
             <option value="rascunho" <?= $noticia['status'] === 'rascunho' ? 'selected' : '' ?>>Rascunho</option>
           </select>
         </div>

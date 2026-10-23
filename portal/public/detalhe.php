@@ -11,7 +11,7 @@ if ($id <= 0) {
 }
 
 // Prepared statement na view pública (Segurança extra)
-$stmt = mysqli_prepare($conn, "SELECT * FROM tbnoticias WHERE idNoticia = ? LIMIT 1");
+$stmt = mysqli_prepare($conn, "SELECT * FROM tbnoticias WHERE idNoticia = ? AND status IN ('publica', 'publicar') LIMIT 1");
 mysqli_stmt_bind_param($stmt, "i", $id);
 mysqli_stmt_execute($stmt);
 $res = mysqli_stmt_get_result($stmt);

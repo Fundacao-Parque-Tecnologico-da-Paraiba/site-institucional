@@ -17,9 +17,17 @@ $params = [];
 $types = "";
 
 if ($filtroStatus !== '') {
-    $where[] = "status = ?";
-    $params[] = $filtroStatus;
-    $types .= "s";
+    if ($filtroStatus === 'publica') {
+        // Inclui o valor legado "publicar" como notícia publicada.
+        $where[] = "status IN (?, ?)";
+        $params[] = 'publica';
+        $params[] = 'publicar';
+        $types .= "ss";
+    } else {
+        $where[] = "status = ?";
+        $params[] = $filtroStatus;
+        $types .= "s";
+    }
 }
 if ($filtroCategoria !== '') {
     $where[] = "categoria = ?";
@@ -121,8 +129,8 @@ $categorias = mysqli_query($conn, "SELECT DISTINCT categoria FROM tbnoticias ORD
         <td><?= $row['categoria'] ?></td>
         <td><?= $row['autor'] ?></td>
         <td>
-          <span class="badge bg-<?= $row['status'] === 'publica' ? 'success' : 'warning' ?>">
-            <?= ucfirst($row['status']) ?>
+          <span class="badge bg-<?= in_array($row['status'], ['publica', 'publicar'], true) ? 'success' : 'warning' ?>">
+            <?= in_array($row['status'], ['publica', 'publicar'], true) ? 'Publicada' : ucfirst($row['status']) ?>
           </span>
         </td>
         <td>

@@ -10,7 +10,7 @@ if ($id <= 0) {
     return;
 }
 
-$sql = "SELECT * FROM tbnoticias WHERE idNoticia = $id LIMIT 1";
+$sql = "SELECT * FROM tbnoticias WHERE idNoticia = $id AND status IN ('publica', 'publicar') LIMIT 1";
 $res = mysqli_query($conn, $sql);
 $noticia = mysqli_fetch_assoc($res);
 

@@ -25,7 +25,7 @@
                    <ul class="latest_news whitecolor">
                         <?php
                         global $conn;
-                        $sqlFooter = "SELECT idNoticia, titulo, datacadastro FROM tbnoticias ORDER BY idNoticia DESC LIMIT 3";
+                        $sqlFooter = "SELECT idNoticia, titulo, datacadastro FROM tbnoticias WHERE status IN ('publica', 'publicar') ORDER BY idNoticia DESC LIMIT 3";
                         $resultFooter = mysqli_query($conn, $sqlFooter);
                         
                         while ($noticiaFooter = mysqli_fetch_assoc($resultFooter)) {

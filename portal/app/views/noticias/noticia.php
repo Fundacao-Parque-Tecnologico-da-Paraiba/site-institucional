@@ -4,7 +4,7 @@
   global $conn;
   $id = isset($_GET['noticia']) ? (int)$_GET['noticia'] : 0;
 
-  $sql = "SELECT * FROM tbnoticias WHERE idNoticia = $id LIMIT 1";
+  $sql = "SELECT * FROM tbnoticias WHERE idNoticia = $id AND status IN ('publica', 'publicar') LIMIT 1";
   $res = mysqli_query($conn, $sql) or die("Erro ao buscar notícia: " . mysqli_error($conn));
 
   $noticia = mysqli_fetch_assoc($res);
@@ -100,7 +100,7 @@
                     <div class="widget heading_space shadow wow fadeIn" data-wow-delay="350ms">
                         <h4 class="text-center darkcolor bottom20 text-center text-md-start">Notícias Recentes</h4>
                         <?php 
-                        $strSQL_01 = "SELECT * FROM  tbnoticias ORDER BY idNoticia DESC LIMIT 6 ";
+                        $strSQL_01 = "SELECT * FROM tbnoticias WHERE status IN ('publica', 'publicar') ORDER BY idNoticia DESC LIMIT 6";
                             $objRs = mysqli_query($conn, $strSQL_01);
                             $i=1;
                             while ($objRow_01= mysqli_fetch_array($objRs))
@@ -118,7 +118,7 @@
                         <h4 class="text-center darkcolor bottom20">Categorias</h4>
                         <ul class="webcats">
                             <?php 
-                        $strSQL_02 = "SELECT categoria AS 'categorianome', COUNT(*) AS 'categorianumero' FROM tbnoticias GROUP BY categoria ORDER BY COUNT(*) DESC";
+                        $strSQL_02 = "SELECT categoria AS 'categorianome', COUNT(*) AS 'categorianumero' FROM tbnoticias WHERE status IN ('publica', 'publicar') GROUP BY categoria ORDER BY COUNT(*) DESC";
 
                             $objRs_02 = mysqli_query($conn, $strSQL_02);
                             $i=1;

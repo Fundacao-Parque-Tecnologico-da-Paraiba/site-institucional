@@ -1,7 +1,7 @@
 <?php
 global $conn;
 
-$strSQL_01 = "SELECT * FROM tbnoticias where categoria='Noticias-IACOC' ORDER BY idNoticia DESC LIMIT 3";
+$strSQL_01 = "SELECT * FROM tbnoticias WHERE categoria='Noticias-IACOC' AND status IN ('publica', 'publicar') ORDER BY idNoticia DESC LIMIT 3";
 $objRs = mysqli_query($conn, $strSQL_01) or die("Erro SQL: " . mysqli_error($conn));
 $total = mysqli_num_rows($objRs);
 

@@ -41,14 +41,15 @@ $mensagem = '';
                     <label class="form-label">Data</label>
                     <input type="date" name="datacadastro" class="form-control" value="<?= date('Y-m-d') ?>">
                 </div>
-                <div class="col-md-3">
+                
+                <!-- <div class="col-md-3">
                     <label class="form-label">Destaque</label>
                     <select name="destaquepublicacao" class="form-select">
                         <option value="">--</option>
                         <option value="Sim">Sim</option>
                         <option value="Não">Não</option>
                     </select>
-                </div>
+                </div> -->
 
                 <?php
                 $campos = [
