@@ -1272,7 +1272,7 @@ jQuery($=> {
     /* -----Main Index Slider------ */
     $("#rev_main").show().revolution({
         sliderType: "standard",
-        jsFileLocation: "js/revolution/",
+        jsFileLocation: (window.PORTAL_BASE_URL || "/") + "assets/js/revolution/",
         sliderLayout: "fullscreen",
         dottedOverlay: "none",
         delay: 9000,
@@ -1350,7 +1350,7 @@ jQuery($=> {
     //revolution slider arrows
     $("#rev_arrows").show().revolution({
         sliderType: "standard",
-        jsFileLocation: "js/revolution/",
+        jsFileLocation: (window.PORTAL_BASE_URL || "/") + "assets/js/revolution/",
         sliderLayout: "fullscreen",
         autoHeight: 'off',
         dottedOverlay: "none",
@@ -1433,7 +1433,7 @@ jQuery($=> {
     //interactive classic revolution slider
     let indexPort = new $("#rev_interactive").show().revolution({
         sliderType: "carousel",
-        jsFileLocation: "js/revolution/",
+        jsFileLocation: (window.PORTAL_BASE_URL || "/") + "assets/js/revolution/",
         sliderLayout: "fullscreen",
         dottedOverlay: "none",
         delay: 9000,
@@ -1519,7 +1519,7 @@ jQuery($=> {
     //single item indexes
     $("#rev_single").show().revolution({
         sliderType: "hero",
-        jsFileLocation: "js/revolution",
+        jsFileLocation: (window.PORTAL_BASE_URL || "/") + "assets/js/revolution/",
         sliderLayout: "fullscreen",
         scrollbarDrag: "true",
         dottedOverlay: "none",
@@ -1731,7 +1731,7 @@ jQuery($=> {
     //Design Studio Index
     $("#rev_slider_8_1").show().revolution({
         sliderType: "standard",
-        jsFileLocation: "//localhost/revslider/revslider/public/assets/js/",
+        jsFileLocation: (window.PORTAL_BASE_URL || "/") + "assets/js/revolution/",
         sliderLayout: "fullscreen",
         dottedOverlay: "none",
         delay: 9000,

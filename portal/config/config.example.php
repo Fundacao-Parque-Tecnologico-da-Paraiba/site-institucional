@@ -23,7 +23,8 @@ error_reporting(E_ALL);
 
 date_default_timezone_set('America/Recife');
 
-define('BASE_URL', '/caminho/do/seu/projeto/public/');
+// A pasta public deve ser o DocumentRoot do Apache em cada ambiente.
+define('BASE_URL', '/');
 
 // ==========================================
 // CONFIGURAÇÕES DE BANCO DE DADOS

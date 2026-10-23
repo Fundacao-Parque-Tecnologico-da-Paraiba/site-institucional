@@ -121,6 +121,7 @@
 <script src="<?= BASE_URL ?>assets/js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
 <script src="<?= BASE_URL ?>assets/js/revolution/extensions/revolution.extension.video.min.js"></script>
 <!--custom functions and script-->
+<script>window.PORTAL_BASE_URL = <?= json_encode(BASE_URL, JSON_UNESCAPED_SLASHES) ?>;</script>
 <script src="<?= BASE_URL ?>assets/js/functions.js"></script>
 </body>
 </div>

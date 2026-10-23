@@ -20,7 +20,7 @@
 <header class="site-header" id="header">
     <nav class="navbar navbar-expand-lg transparent-bg static-nav">
         <div class="container">
-            <a class="navbar-brand-lg" href="<?= BASE_URL ?>../public">
+            <a class="navbar-brand-lg" href="<?= BASE_URL ?>">
                 <img src="<?= BASE_URL ?>assets/img/logo-transparent.png" alt="logo" class="logo-default">
                 <img src="<?= BASE_URL ?>assets/img/logo.png" alt="logo" class="logo-scrolled">
                  <br/>
@@ -42,7 +42,7 @@
                             <a class="dropdown-item" href="<?= BASE_URL ?>missao">Missão</a>
                             <a class="dropdown-item" href="<?= BASE_URL ?>nossotime">Quem Somos</a>
                             <a class="dropdown-item" href="<?= BASE_URL ?>historico">Histórico</a>
-                            <a class="dropdown-item" href="<?= BASE_URL ?>estatuto"  target="_blank">Estatuto</a>
+                            <a class="dropdown-item" href="<?= BASE_URL ?>estatuto">Estatuto</a>
                             <a class="dropdown-item" href="<?= BASE_URL ?>certidoes">Certidões</a>
                             <a class="dropdown-item" href="<?= BASE_URL ?>atosnormativos">Atos Normativos</a>
                         </div>
@@ -122,7 +122,7 @@
                             <li><a class="nav-link" href="<?= BASE_URL ?>missao">Missão</a></li>
                             <li><a class="nav-link" href="<?= BASE_URL ?>nossotime">Quem Somos</a></li>
                             <li><a class="nav-link" href="<?= BASE_URL ?>historico">Histórico</a></li>
-                            <li><a class="nav-link" href="<?= BASE_URL ?>estatuto"  target="_blank">Estatuto</a></li>
+                            <li><a class="nav-link" href="<?= BASE_URL ?>estatuto">Estatuto</a></li>
                             <li><a class="nav-link" href="<?= BASE_URL ?>certidoes">Certidões</a></li>
                             <a class="nav-link" href="<?= BASE_URL ?>atosnormativos">Atos Normativos</a>
                             <li><a class="nav-link" href="<?= BASE_URL ?>organograma">Estrutura Administrativa</a></li>

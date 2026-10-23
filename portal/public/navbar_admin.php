@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand d-flex align-items-center" href="<?= BASE_URL ?>/painel.php">
+    <a class="navbar-brand d-flex align-items-center" href="<?= BASE_URL ?>painel.php">
       <i data-lucide="home" class="me-2"></i> Home
     </a>
 

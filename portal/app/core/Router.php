@@ -7,7 +7,7 @@ class Router {
     }
 
     public function dispatch($uri) {
-        // Detecta base URI automaticamente (ex: /portal/public)
+        // Detecta automaticamente o caminho base da pasta pública.
         $base = str_replace('/index.php', '', $_SERVER['SCRIPT_NAME']);
 
         // Remove a base do URI acessado
