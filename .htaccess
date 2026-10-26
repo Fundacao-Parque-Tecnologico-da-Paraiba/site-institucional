@@ -1,3 +1,19 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # URL antiga do projeto: volta para a home na raiz do localhost.
+    RewriteRule ^portal/public(?:/index\.php)?/?$ / [R=302,L]
+
+    # Serve arquivos estáticos da pasta public quando o HTTPS usa htdocs como raiz.
+    RewriteCond %{DOCUMENT_ROOT}/portal/public%{REQUEST_URI} -f
+    RewriteRule ^(.+)$ portal/public/$1 [END]
+
+    # Envia as rotas da aplicação ao front controller público.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ portal/public/index.php [END,QSA]
+</IfModule>
+
 <IfModule mod_autoindex.c>
     # desabilita a listagem de diretório
     Options -Indexes

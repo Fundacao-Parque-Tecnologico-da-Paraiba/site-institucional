@@ -1,4 +1,4 @@
 <?php
-// Entra no projeto; portal/index.php encaminha para sua pasta pública.
-header("Location: portal/", true, 302);
-exit;
+// Serve a aplicação pública na raiz do localhost quando o VirtualHost HTTPS
+// mantém C:/xampp/htdocs como DocumentRoot.
+require __DIR__ . '/portal/public/index.php';
