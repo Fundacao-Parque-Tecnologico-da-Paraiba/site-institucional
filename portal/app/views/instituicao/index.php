@@ -67,7 +67,7 @@
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="500ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/ifpb.png" alt="IFPB">
+                  <img src="<?= BASE_URL ?>assets/img/IFPB.png" alt="IFPB">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">IFPB</h4>
@@ -118,7 +118,7 @@
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="600ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/pmcg.png" alt="PMCG">
+                  <img src="<?= BASE_URL ?>assets/img/PMCG.png" alt="PMCG">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">PMCG</h4>
@@ -135,7 +135,7 @@
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="650ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/governopb.png" alt="Governo da Paraíba">
+                  <img src="<?= BASE_URL ?>assets/img/GOVERNOPB.png" alt="Governo da Paraíba">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">Paraíba</h4>
@@ -152,7 +152,7 @@
          <div class="col-lg-2 col-md-4 col-sm-6 col-12 pb-4">
             <div class="team-box wow fadeIn" data-wow-delay="650ms">
                <div class="image">
-                  <img src="<?= BASE_URL ?>assets/img/fiep.png" alt="FIEP-PB">
+                  <img src="<?= BASE_URL ?>assets/img/FIEP.png" alt="FIEP-PB">
                </div>
                <div class="team-content">
                   <h4 class="darkcolor">FIEP-PB</h4>
