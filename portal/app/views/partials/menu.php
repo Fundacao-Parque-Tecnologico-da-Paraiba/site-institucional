@@ -91,7 +91,7 @@
         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">SISTEMAS</a>
         <div class="dropdown-menu">
             <a class="dropdown-item" href="https://paqtcpb.conveniar.com.br/coordenador/Login.aspx" target="_blank">Conveniar - Coordenador</a>
-            <a class="dropdown-item" href="https://sgi.paqtc.org.br/Portal_Transparencia/" target="_blank">Portal da Transparência - SGI</a>
+            <a class="dropdown-item" href="https://transparencia.paqtc.org.br/" target="_blank">Portal da Transparência - SGI</a>
             <a class="dropdown-item" href="https://paqtcpb.conveniar.com.br/portaltransparencia/" target="_blank">Portal da Transparência - Conveniar</a>
         </div>
     </li>
@@ -162,7 +162,7 @@
                     <div id="sideNavSistemas" class="collapse">
                         <ul class="navbar-nav mt-2">
                             <li><a class="nav-link" href="https://paqtcpb.conveniar.com.br/coordenador/Login.aspx" target="_blank">Conveniar - Coordenador</a></li>
-                            <li><a class="nav-link" href="https://sgi.paqtc.org.br/Portal_Transparencia/" target="_blank">Portal da Transparência - SGI</a></li>
+                            <li><a class="nav-link" href="https://transparencia.paqtc.org.br/" target="_blank">Portal da Transparência - SGI</a></li>
                             <li><a class="nav-link" href="https://paqtcpb.conveniar.com.br/portaltransparencia/" target="_blank">Portal da Transparência - Conveniar</a></li>
                         </ul>
                     </div>
